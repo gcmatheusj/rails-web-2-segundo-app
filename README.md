@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Heroku App](https://rails-web-2-segundo-app.herokuapp.com/)
 
-Things you may want to cover:
+Respostas das questões abertas do Roteiro 2
 
-* Ruby version
+9)
+a - id: notice. Quando a tela é atualizada a mensagem some, porém a tag <p></p> que renderiza a mensagem continua no codigo fonte, e as informações do usuário cadastrado continua em tela.
 
-* System dependencies
+b - O usuário é cadastrado sem email.
 
-* Configuration
+c - O usuário é cadastrado com o email inválido.
 
-* Database creation
+d - Sim, aparece uma mensagem de confirmação perguntando se quero excluir o usuário e em seguida uma mensagem de sucesso.
 
-* Database initialization
+12) No arquivo users_controller.rb, linha 67: @user = User.find(params[:id])
 
-* How to run the test suite
+13) edit.html.erb
 
-* Services (job queues, cache servers, search engines, etc.)
+15)
+a - id: notice. Quando a tela é atualizada a mensagem some, porém a tag <p></p> que renderiza a mensagem continua no codigo fonte e as informações do micropost cadastrado continua em tela.
 
-* Deployment instructions
+b - O micropost é criado, porém sem o content e o id do user.
 
-* ...
+c - O micropost é criado normalmente.
+
+d - Todos os micropost foram destruidos com sucesso.
+
+17) 
+a - Uma mensagem de erro é exibida, informando que o content é muito grande (máximo de 140 caracteres).
+
+b - id: error_explanation
